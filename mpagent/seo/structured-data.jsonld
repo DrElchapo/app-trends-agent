@@ -1,0 +1,141 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MP Agent",
+    "description": "AI-менеджер маркетплейсов Wildberries и Ozon. Автоматизация карточек товаров, ценообразования, рекламы, аналитики и интеграции с 1С.",
+    "url": "https://ai-commerce.online",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Стартовый",
+        "description": "1 магазин (Wildberries или Ozon), оптимизация до 100 карточек, базовое ценообразование, мониторинг рекламы, аналитика",
+        "price": "7900",
+        "priceCurrency": "RUB",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "7900",
+          "priceCurrency": "RUB",
+          "billingDuration": "P1M",
+          "unitText": "месяц"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Бизнес",
+        "description": "До 5 магазинов, безлимит карточек, все стратегии ценообразования, автоматизация рекламы, интеграция с 1С, приоритетная поддержка",
+        "priceCurrency": "RUB"
+      }
+    ],
+    "featureList": [
+      "AI-оптимизация карточек товаров",
+      "Автоматическое ценообразование",
+      "Управление рекламными кампаниями",
+      "Аналитика и отчёты",
+      "AI-ответы на отзывы",
+      "Интеграция с 1С",
+      "Дропшиппинг",
+      "Синхронизация товаров и остатков 24/7"
+    ],
+    "screenshot": "https://ai-commerce.online/og-image.png",
+    "softwareHelp": {
+      "@type": "WebPage",
+      "url": "https://ai-commerce.online/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "MP Agent"
+    }
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MP Agent",
+    "legalName": "ИП Петрушин Александр Иванович",
+    "url": "https://ai-commerce.online",
+    "logo": "https://ai-commerce.online/icon-512.png",
+    "description": "AI для автоматизации продаж на маркетплейсах Wildberries и Ozon",
+    "email": "apetrushin40@gmail.com",
+    "taxID": "402816239415",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "RU"
+    },
+    "sameAs": []
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Безопасно ли передавать API-ключи маркетплейсов?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да. Подключение к маркетплейсам происходит через официальные API. Все ключи шифруются алгоритмом AES-256-GCM и хранятся в зашифрованном виде. Мы не имеем доступа к ключам в открытом виде и не передаём их третьим лицам."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какие маркетплейсы в России поддерживаются?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Сейчас доступна интеграция с Wildberries и Ozon — двумя крупнейшими маркетплейсами в России. Поддержка дополнительных площадок в планах развития."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Обязательна ли интеграция 1С с маркетплейсами?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Нет, интеграция 1С опциональна. Вы можете использовать только автоматизацию маркетплейсов без 1С. Интеграция нужна, если хотите автоматическую выгрузку товаров из 1С и приём заказов обратно в учётную систему."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Как быстро выполнить подключение к маркетплейсам?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Регистрация и подключение первого магазина занимают 5–10 минут. Пошаговый мастер проведёт через настройку: подключение через API, импорт товаров, первый SEO-аудит карточек."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AI сам меняет цены и текст карточек товаров?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Нет автоматических изменений без вашего подтверждения. AI анализирует карточки и предлагает рекомендации — вы решаете, что применить. Ценообразование работает по вашим правилам с защитой минимальной маржи."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Чем MP Agent отличается от CRM для маркетплейсов?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MP Agent — это AI-решение для e-commerce, которое не только хранит данные, но и активно оптимизирует: генерирует контент, подбирает цены, анализирует рекламу и даёт рекомендации на основе данных."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Есть ли пробный период?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, вы можете зарегистрироваться и попробовать базовые функции бесплатно. Подключите магазин на Wildberries или Ozon, посмотрите аналитику и оцените возможности автоматизации."
+        }
+      }
+    ]
+  },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MP Agent",
+    "url": "https://ai-commerce.online",
+    "description": "AI-менеджер маркетплейсов Wildberries и Ozon",
+    "inLanguage": "ru-RU"
+  }
+]

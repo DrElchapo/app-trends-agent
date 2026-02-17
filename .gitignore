@@ -7,6 +7,8 @@ dist
 !package.json
 !tsconfig.json
 !nest-cli.json
+!**/manifest.json
+!**/structured-data.jsonld
 coverage
 .nyc_output
 

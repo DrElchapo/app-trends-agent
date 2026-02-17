@@ -1,0 +1,48 @@
+# MP Agent — ai-commerce.online
+# Robots.txt для поисковых систем
+
+User-agent: *
+
+# Публичные страницы — разрешены
+Allow: /
+Allow: /offer
+Allow: /privacy
+
+# Приложение — закрыто от индексации
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /login
+Disallow: /register
+Disallow: /settings
+Disallow: /settings/*
+Disallow: /products
+Disallow: /products/*
+Disallow: /ai-content
+Disallow: /ai-content/*
+Disallow: /pricing
+Disallow: /pricing/*
+Disallow: /advertising
+Disallow: /advertising/*
+Disallow: /reviews
+Disallow: /reviews/*
+Disallow: /analytics
+Disallow: /analytics/*
+Disallow: /dropshipping
+Disallow: /dropshipping/*
+Disallow: /integrations
+Disallow: /integrations/*
+Disallow: /onboarding
+Disallow: /onboarding/*
+Disallow: /api/
+Disallow: /api/*
+
+# Статические ресурсы — разрешены
+Allow: /assets/
+Allow: /manifest.json
+
+# Карта сайта
+Sitemap: https://ai-commerce.online/sitemap.xml
+
+# Яндекс-специфичные директивы
+User-agent: Yandex
+Host: ai-commerce.online
